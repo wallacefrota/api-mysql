@@ -1,3 +1,5 @@
+// DEVELOPED BY: WALLACE FROTA - @frotadev
+
 // importando pacotes/modulos
 const express = require('express');
 const requireDir = require('require-dir');
