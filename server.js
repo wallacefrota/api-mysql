@@ -5,11 +5,14 @@ const requireDir = require('require-dir');
 // app recebendo toda a função express
 const app = express();
 
+// permitindo envio de json na aplicação
+app.use(express.json());
+
 // requerendo todo o diretório de models
 requireDir('./src/models');
 
-// permitindo envio de json na aplicação
-app.use(express.json())
+// rotas
+app.use('/api', require('./src/routes'));
 
 // acesso a aplicação via porta 8081
 app.listen(8081, (req, res) => {
