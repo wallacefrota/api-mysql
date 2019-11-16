@@ -2,7 +2,7 @@
 const Sequelize = require('sequelize');
 
 // fazendo conexão ao banco de dados. "nomebd", "usuário", "senha"
-const sequelize = Sequelize.define('api', 'root', '12345', {
+const sequelize = new Sequelize('api', 'root', '12345', {
     host: 'localhost',
     dialect: 'mysql'
 });
