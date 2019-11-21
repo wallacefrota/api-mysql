@@ -19,6 +19,11 @@ npm install --save sequelize
 ```
 npm install --save mysql2
 ```
+## require-dir
+
+```
+npm install --save require-dir
+```
 
 ## Nodemon módulo de desenvolvimento
 
