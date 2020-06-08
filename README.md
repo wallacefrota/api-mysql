@@ -1,38 +1,51 @@
-# api-mysql
-Api desenvolvida usando NodeJs e MySql, utilizando o ORM Sequelize.
+[![nodejs](https://img.shields.io/badge/nodejs-12.16.3-026E00)](https://nodejs.org/en/download/)
+[![npm](https://img.shields.io/npm/v/npm?color=%23EE7A3B&label=npm&style=plastice&logo=npm)](https://npm.org/)
+# Api-MySQL
 
-### Instalação de módulos necessários
+Api Rest desenvolvida usando NodeJs e MySql.
 
-## Express
+## Começando
+Essas instruções fornecerão uma cópia do projeto em execução na sua máquina local para fins de desenvolvimento e testes.
 
-```
-npm install express
-```
-## Sequelize
+### Pré-requisitos
 
-```
-npm install --save sequelize
-```
+Para rodar a aplicação você precisa ter o node instalado em sua máquina.
+[Instalar](https://nodejs.org/en/docs/)
 
-## MySql2
-
+# Clone este repositório
 ```
-npm install --save mysql2
+# Em seu terminal
+git clone https://github.com/WallaceFrota/api-mysql.git
 ```
-## require-dir
-
+# Instalação
+Instale todas as bibliotecas à partir do npm ou yarn
 ```
-npm install --save require-dir
+npm install
 ```
-
-## Nodemon módulo de desenvolvimento
-
+Ou
 ```
-npm install -D nodemon
+yarn install
 ```
 
-### Rodando aplicação via nodemon ou modo convencional
+# iniciando a api
+```
+npm start server.js
+```
+Ou
+```
+npm run dev
+```
 
-```
-npm start server.js OU npm run dev
-```
+# Construído com
+Algumas tecnologias utilizadas no desenvolvimento.
+
+| NOME | README |
+| ------ | ------ |
+| [NodeJs](https://nodejs.org/en/docs/)  | Interpretador de JavaScript assíncrono |
+| [MySQL](https://www.mysql.com/) | sistema de gerenciamento de banco de dados, que utiliza a linguagem SQL como interface |
+| [Sequelize](https://sequelize.org/) | ORM baseado em promessas para Postgres, MySQL, MariaDB, SQLite. Possui sólido suporte a transações, relações, carregamento rápido e preguiçoso, replicação de leitura e muito mais. |
+
+## Autor
+* **Wallace Frota**
+[Linkedin](https://linkedin.com/in/wallacefrota)
+[GitHub](https://github.com/WallaceFrota)
