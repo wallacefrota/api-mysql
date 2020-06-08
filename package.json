@@ -1,0 +1,31 @@
+{
+  "name": "api-mysql",
+  "version": "1.0.0",
+  "description": "Api desenvolvida usando NodeJs e MySql, utilizando o ORM Sequelize.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WallaceFrota/api-mysql.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WallaceFrota/api-mysql/issues"
+  },
+  "homepage": "https://github.com/WallaceFrota/api-mysql#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql2": "^2.1.0",
+    "require-dir": "^1.2.0",
+    "sequelize": "^5.21.12"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
